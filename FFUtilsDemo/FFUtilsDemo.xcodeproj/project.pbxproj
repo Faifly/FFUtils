@@ -391,6 +391,7 @@
 				91C381171D99B4FF00796CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

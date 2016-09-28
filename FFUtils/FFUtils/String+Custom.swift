@@ -16,3 +16,9 @@ extension String
         return self.characters.count
     }
 }
+
+/// Localization
+public func LocalizedString(_ string: String) -> String
+{
+    return NSLocalizedString(string, comment: "")
+}
