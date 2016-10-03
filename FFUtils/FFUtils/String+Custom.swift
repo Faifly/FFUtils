@@ -8,12 +8,18 @@
 
 import Foundation
 
-/// String length
 extension String
 {
+    /// String length
     public var length: Int
     {
         return self.characters.count
+    }
+    
+    /// Search
+    public func corresponds(toSearchString searchString: String) -> Bool
+    {
+        return self.range(of: searchString, options: [.caseInsensitive, .diacriticInsensitive]) != nil
     }
 }
 
