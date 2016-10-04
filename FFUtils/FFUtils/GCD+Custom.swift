@@ -17,10 +17,34 @@ func dispatchAfter(seconds: Double, closure: @escaping () -> ())
     }
 }
 
+/// Dispatch after
 extension DispatchQueue
 {
     static func dispatchAfter(seconds: Double, closure: @escaping () -> ())
     {
         dispatchAfter(seconds: seconds, closure: closure)
+    }
+}
+
+/// Dispatch after
+public extension DispatchQueue
+{
+    fileprivate static var onceTracker = [String]()
+
+    public class func once(token: String, block:() -> ())
+    {
+        objc_sync_enter(self)
+        defer
+        {
+            objc_sync_exit(self)
+        }
+        
+        if self.onceTracker.contains(token)
+        {
+            return
+        }
+        
+        self.onceTracker.append(token)
+        block()
     }
 }
