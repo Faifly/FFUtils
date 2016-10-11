@@ -21,6 +21,23 @@ extension String
     {
         return self.range(of: searchString, options: [.caseInsensitive, .diacriticInsensitive]) != nil
     }
+    
+    /// Empty
+    public static func isEmpty(_ string: String?) -> Bool
+    {
+        if string == nil
+        {
+            return true
+        }
+        else if string!.length == 0
+        {
+            return true
+        }
+        else
+        {
+            return false
+        }
+    }
 }
 
 /// Localization
