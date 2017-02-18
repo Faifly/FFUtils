@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58B418A71E58366900799010 /* UIImage+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B418A61E58366900799010 /* UIImage+Custom.swift */; };
 		911A962B1D99B4D40082E87E /* FFUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911A96211D99B4D40082E87E /* FFUtils.framework */; };
 		911A96301D99B4D40082E87E /* FFUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A962F1D99B4D40082E87E /* FFUtilsTests.swift */; };
 		911A96321D99B4D40082E87E /* FFUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 911A96241D99B4D40082E87E /* FFUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58B418A61E58366900799010 /* UIImage+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Custom.swift"; sourceTree = "<group>"; };
 		911A96211D99B4D40082E87E /* FFUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FFUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		911A96241D99B4D40082E87E /* FFUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFUtils.h; sourceTree = "<group>"; };
 		911A96251D99B4D40082E87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				91C381441D99B91C00796CEE /* GCD+Custom.swift */,
 				91AA08C51DA3E22400A22BA0 /* UITableViewCell+Custom.swift */,
 				919057611DA66DA100AB8C0D /* UICollectionViewCell+Custom.swift */,
+				58B418A61E58366900799010 /* UIImage+Custom.swift */,
 			);
 			path = FFUtils;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			files = (
 				91C381341D99B54C00796CEE /* String+Custom.swift in Sources */,
 				919057621DA66DA100AB8C0D /* UICollectionViewCell+Custom.swift in Sources */,
+				58B418A71E58366900799010 /* UIImage+Custom.swift in Sources */,
 				91AA08C61DA3E22400A22BA0 /* UITableViewCell+Custom.swift in Sources */,
 				91C381451D99B91C00796CEE /* GCD+Custom.swift in Sources */,
 			);
