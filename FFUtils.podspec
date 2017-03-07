@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFUtils'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'Utils for different things'
 
   s.homepage         = 'https://github.com/Faifly/FFUtils'
