@@ -45,6 +45,11 @@ extension String
         let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
         return emailTest.evaluate(with: self)
     }
+    
+    public var removingHTMLTags: String
+    {
+        return self.replacingOccurrences(of: "<[^>]+>", with: "", options: .regularExpression, range: nil)
+    }
 }
 
 /// Localization
