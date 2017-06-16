@@ -12,6 +12,6 @@ extension UICollectionViewCell
 {
     public static var reuseID: String
     {
-        return String(describing: self)
+        return self.className
     }
 }
