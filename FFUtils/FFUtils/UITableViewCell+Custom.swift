@@ -10,7 +10,7 @@ import UIKit
 
 extension UITableViewCell
 {
-    public static var reuseID: String
+    open class var reuseID: String
     {
         return self.className
     }
