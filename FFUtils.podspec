@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFUtils'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'Utils for different things'
 
   s.homepage         = 'https://github.com/Faifly/FFUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Artem Kalmykov' => 'ar.kalmykov@gmail.com' }
+  s.author           = { 'Artem Kalmykov' => 'ar.kalmykov@yahoo.com' }
   s.source           = { :git => 'https://github.com/Faifly/FFUtils.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
