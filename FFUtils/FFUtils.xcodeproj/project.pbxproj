@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5809E1B81EF81FA6006948A4 /* UITableView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5809E1B71EF81FA6006948A4 /* UITableView+Custom.swift */; };
+		5809E1BA1EF820ED006948A4 /* UICollectionView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5809E1B91EF820ED006948A4 /* UICollectionView+Custom.swift */; };
 		58B418A71E58366900799010 /* UIImage+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B418A61E58366900799010 /* UIImage+Custom.swift */; };
 		58E3F0801EF44B9300E843B8 /* NSObject+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E3F07F1EF44B9300E843B8 /* NSObject+Custom.swift */; };
 		58E3F0851EF4534D00E843B8 /* UIViewController+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E3F0841EF4534D00E843B8 /* UIViewController+Custom.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5809E1B71EF81FA6006948A4 /* UITableView+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Custom.swift"; sourceTree = "<group>"; };
+		5809E1B91EF820ED006948A4 /* UICollectionView+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Custom.swift"; sourceTree = "<group>"; };
 		58B418A61E58366900799010 /* UIImage+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Custom.swift"; sourceTree = "<group>"; };
 		58E3F07F1EF44B9300E843B8 /* NSObject+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Custom.swift"; sourceTree = "<group>"; };
 		58E3F0841EF4534D00E843B8 /* UIViewController+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Custom.swift"; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				58E3F07F1EF44B9300E843B8 /* NSObject+Custom.swift */,
 				58E3F0841EF4534D00E843B8 /* UIViewController+Custom.swift */,
 				58E3F0861EF453A600E843B8 /* UIStoryboard+Custom.swift */,
+				5809E1B71EF81FA6006948A4 /* UITableView+Custom.swift */,
+				5809E1B91EF820ED006948A4 /* UICollectionView+Custom.swift */,
 			);
 			path = FFUtils;
 			sourceTree = "<group>";
@@ -232,6 +238,8 @@
 				58B418A71E58366900799010 /* UIImage+Custom.swift in Sources */,
 				91AA08C61DA3E22400A22BA0 /* UITableViewCell+Custom.swift in Sources */,
 				58E3F0801EF44B9300E843B8 /* NSObject+Custom.swift in Sources */,
+				5809E1BA1EF820ED006948A4 /* UICollectionView+Custom.swift in Sources */,
+				5809E1B81EF81FA6006948A4 /* UITableView+Custom.swift in Sources */,
 				91C381451D99B91C00796CEE /* GCD+Custom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
