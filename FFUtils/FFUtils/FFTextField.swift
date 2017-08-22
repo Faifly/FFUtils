@@ -45,7 +45,7 @@ public class FFTextField: UITextField
         }
     }
     
-    override func rightViewRect(forBounds bounds: CGRect) -> CGRect
+    override public func rightViewRect(forBounds bounds: CGRect) -> CGRect
     {
         let rect = super.rightViewRect(forBounds: bounds)
         return UIEdgeInsetsInsetRect(rect, self.rightViewInset)
