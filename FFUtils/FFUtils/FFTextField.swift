@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FFTextField: UITextField
+public class FFTextField: UITextField
 {
     @IBOutlet open weak var nextField: UIResponder?
     
