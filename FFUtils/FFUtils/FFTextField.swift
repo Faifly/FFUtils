@@ -11,7 +11,10 @@ import UIKit
 class FFTextField: UITextField
 {
     @IBOutlet open weak var nextField: UIResponder?
+    
     @IBInspectable var handleReturn: Bool = false
+    
+    public var rightViewInset: UIEdgeInsets = .zero
     
     public required init?(coder aDecoder: NSCoder)
     {
@@ -40,5 +43,11 @@ class FFTextField: UITextField
         {
             self.resignFirstResponder()
         }
+    }
+    
+    override func rightViewRect(forBounds bounds: CGRect) -> CGRect
+    {
+        let rect = super.rightViewRect(forBounds: bounds)
+        return UIEdgeInsetsInsetRect(rect, self.rightViewInset)
     }
 }
