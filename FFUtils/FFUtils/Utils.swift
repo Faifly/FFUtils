@@ -10,7 +10,7 @@ import Foundation
 
 public typealias EmptyClosure = (() -> Void)
 
-func ><T: Equatable>(lhs: T?, rhs: T?) -> Bool
+public func ><T: Equatable>(lhs: T?, rhs: T?) -> Bool
 {
     switch (lhs, rhs)
     {
@@ -25,7 +25,7 @@ func ><T: Equatable>(lhs: T?, rhs: T?) -> Bool
     }
 }
 
-func >=<T: Equatable>(lhs: T?, rhs: T?) -> Bool
+public func >=<T: Equatable>(lhs: T?, rhs: T?) -> Bool
 {
     switch (lhs, rhs)
     {
@@ -40,7 +40,7 @@ func >=<T: Equatable>(lhs: T?, rhs: T?) -> Bool
     }
 }
 
-func <<T: Equatable>(lhs: T?, rhs: T?) -> Bool
+public func <<T: Equatable>(lhs: T?, rhs: T?) -> Bool
 {
     switch (lhs, rhs)
     {
@@ -55,7 +55,7 @@ func <<T: Equatable>(lhs: T?, rhs: T?) -> Bool
     }
 }
 
-func <=<T: Equatable>(lhs: T?, rhs: T?) -> Bool
+public func <=<T: Equatable>(lhs: T?, rhs: T?) -> Bool
 {
     switch (lhs, rhs)
     {
