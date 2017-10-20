@@ -10,7 +10,8 @@ import Foundation
 
 public typealias EmptyClosure = (() -> Void)
 
-public func ><T: Equatable>(lhs: T?, rhs: T?) -> Bool
+infix operator >? : ComparisonPrecedence
+public func >? <T: Comparable>(lhs: T?, rhs: T?) -> Bool
 {
     switch (lhs, rhs)
     {
@@ -25,7 +26,8 @@ public func ><T: Equatable>(lhs: T?, rhs: T?) -> Bool
     }
 }
 
-public func >=<T: Equatable>(lhs: T?, rhs: T?) -> Bool
+infix operator >=? : ComparisonPrecedence
+public func >=? <T: Comparable>(lhs: T?, rhs: T?) -> Bool
 {
     switch (lhs, rhs)
     {
@@ -40,7 +42,8 @@ public func >=<T: Equatable>(lhs: T?, rhs: T?) -> Bool
     }
 }
 
-public func <<T: Equatable>(lhs: T?, rhs: T?) -> Bool
+infix operator <? : ComparisonPrecedence
+public func <? <T: Comparable>(lhs: T?, rhs: T?) -> Bool
 {
     switch (lhs, rhs)
     {
@@ -55,7 +58,8 @@ public func <<T: Equatable>(lhs: T?, rhs: T?) -> Bool
     }
 }
 
-public func <=<T: Equatable>(lhs: T?, rhs: T?) -> Bool
+infix operator <=? : ComparisonPrecedence
+public func <=? <T: Comparable>(lhs: T?, rhs: T?) -> Bool
 {
     switch (lhs, rhs)
     {
@@ -69,3 +73,4 @@ public func <=<T: Equatable>(lhs: T?, rhs: T?) -> Bool
         return false
     }
 }
+
